@@ -2,4 +2,4 @@
 
 Простой ToDo лист, используется нативный JavaScript и CSS, сохранение данных в LocalStorage.
 
-[Список задач на GitHub Pages](https://supreme331.github.io/Simple-ToDo/)
+[Список задач на GitHub Pages](https://#)
