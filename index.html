@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css"/>
+    <title>ToDo</title>
+</head>
+<body>
+<div class="container">
+    <h1 class="title">Список задач</h1>
+    <div class="add-task-block">
+        <h2 class="subtitle">Добавить новую задачу</h2>
+        <div class="form-block">
+            <form id="form">
+                <div class="form-group">
+                    <input type="text" class="form-input" id="taskInput" placeholder="Не забыть сделать..." required>
+                </div>
+                <button type="submit" class="btn btn-primary  btn-lg active">Добавить</button>
+            </form>
+        </div>
+    </div>
+    <div class="list-block">
+        <ul id="tasksList" class="list-group">
+        </ul>
+    </div>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
