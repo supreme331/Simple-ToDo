@@ -31,13 +31,15 @@ body {
 }
 
 .subtitle {
-    font-size: 22px;
+    text-align: center;
+    font-size: 16px;
     font-weight: 400;
     margin: 0 0 15px 0;
 }
 
 #form {
     display: flex;
+    justify-content: space-between;
 }
 
 .form-group {
@@ -132,13 +134,12 @@ body {
     display: inline-block;
     box-sizing: border-box;
     padding: 0 15px;
-    margin: 0 15px 15px 0;
     outline: none;
     border: none;
     border-radius: 4px;
     height: 38px;
     line-height: 38px;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 500;
     text-decoration: none;
     color: #fff;
@@ -164,8 +165,8 @@ body {
 
 @keyframes btn_ripples {
     0% {
-        width: 0px;
-        height: 0px;
+        width: 0;
+        height: 0;
         opacity: 0.5;
     }
     100% {
@@ -224,3 +225,8 @@ body {
     float: right;
 }
 
+@media (min-width: 701px) {
+    .subtitle {
+        font-size: 22px;
+    }
+}
